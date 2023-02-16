@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.introduce-section {
+  padding: 0 20px;
+  margin: 40px 0;
+}
+
 .movie-table {
   width: 100%;
   border: 1px solid #333333;
