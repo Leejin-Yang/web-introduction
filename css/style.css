@@ -1,11 +1,49 @@
-body {
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
+  color: #212529;
+  background-color: #fffcee;
+}
+
+a {
+  color: #004031;
+  text-decoration: underline #004031;
+}
+
+p {
+  line-height: 2;
 }
 
 .introduce-section {
   padding: 0 20px;
   margin: 40px 0;
+}
+
+.introduce-section > h1 {
+  margin-bottom: 20px;
+}
+
+.introduce-section:first-of-type {
+  position: relative;
+}
+
+.profile-image {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 180px;
+}
+
+.info-list {
+  margin: 20px 0;
+}
+
+.info {
+  display: flex;
+  margin: 10px 0;
 }
 
 .movie-table {
