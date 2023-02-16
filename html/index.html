@@ -142,28 +142,36 @@
 
       <section class="introduce-section">
         <h1>🚩 방명록</h1>
-        <form>
-          <div>
-            <label for="visitior-name">이름: </label>
-            <input type="text" id="visitor-name" />
-          </div>
-          <div>
+        <div class="visitor-name-input-container">
+          <label for="visitior-name">이름: </label>
+          <input type="text" id="visitor-name" />
+        </div>
+        <ul class="movie-check-list">
+          <li>
             <input type="checkbox" id="movie-1" />
-            <label for="movie-1">영화제목1</label>
+            <label for="movie-1">트루먼 쇼</label>
+          </li>
+          <li>
             <input type="checkbox" id="movie-2" />
-            <label for="movie-2">영화제목2</label>
+            <label for="movie-2">타이타닉</label>
+          </li>
+          <li>
             <input type="checkbox" id="movie-3" />
-            <label for="movie-3">영화제목3</label>
+            <label for="movie-3">노팅 힐</label>
+          </li>
+          <li>
             <input type="checkbox" id="movie-4" />
-            <label for="movie-4">영화제목4</label>
+            <label for="movie-4">이터널 선샤인</label>
+          </li>
+          <li>
             <input type="checkbox" id="movie-5" />
-            <label for="movie-5">영화제목5</label>
-          </div>
-          <div>
-            <button type="button">등록</button>
-            <button type="reset">취소</button>
-          </div>
-        </form>
+            <label for="movie-5">레미제라블</label>
+          </li>
+        </ul>
+        <div class="visitor-button-container">
+          <button type="button" class="visitor-register-button">등록</button>
+          <button type="reset" class="visitor-reset-button">취소</button>
+        </div>
       </section>
     </main>
   </body>

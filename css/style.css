@@ -6,6 +6,7 @@
 body {
   color: #212529;
   background-color: #fffcee;
+  line-height: 1;
 }
 
 a {
@@ -15,6 +16,11 @@ a {
 
 p {
   line-height: 2;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
 }
 
 .introduce-section {
@@ -70,4 +76,41 @@ p {
 
 .movie-desc {
   text-align: left !important;
+}
+
+.visitor-name-input-container > input {
+  width: 200px;
+  padding: 4px 10px;
+  margin-left: 16px;
+  border: 1px solid #333333;
+}
+
+.movie-check-list {
+  display: flex;
+  margin-top: 40px;
+  list-style: none;
+}
+
+.movie-check-list > li + li {
+  margin-left: 16px;
+}
+
+.movie-check-list > li > label {
+  margin: 0 4px;
+}
+
+.visitor-button-container {
+  margin-top: 40px;
+}
+
+.visitor-button-container > button {
+  width: 100px;
+  padding: 10px;
+  color: #ececec;
+  background-color: #004031;
+  border: none;
+}
+
+.visitor-button-container > button + button {
+  margin-left: 16px;
 }
